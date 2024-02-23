@@ -1,1 +1,1 @@
-# landing-page
+This is a personal project for the purposes of teaching myself HTML, CSS and flexbox. All images were sourced from Pexel.com
