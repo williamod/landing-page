@@ -16,6 +16,15 @@ button {
     padding: 8px 24px;
     border-radius: 12px;
     font-weight: 900;
+    border: none;
+}
+
+.white-border {
+    border: #f9faf8 solid 3px;
+}
+
+.header, .info, .quote, .callaction, .footer {
+    padding: 0 48px;
 }
 
 .header {
@@ -76,7 +85,21 @@ button {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: flex-start;
-    gap: 24px;
+    gap: 16px;
+    
+    
+}
+
+.info .text {
+    color: #1F2937;
+    margin: 24px 0;
+    max-width: 200px;
+}
+
+.image-box{
+    max-width: 200px;
+    max-height: 200px;
+    
 }
 
 
@@ -84,23 +107,32 @@ button {
 #pic {
     border-style: solid;
     border-color: #3882f6; 
-    
+    border-radius: 12px;
+    width: 200px;
+    height: auto;
 }
 
 .quote {
     background-color: #e5e7eb;
     color: #1F2937;
+    padding: 24px 48px;
+    
 }
 
 .quote .text {
     font-size: 36px;
     font-style: italic;
     text-align: center;
+    margin: 16px 0;
+    
     
 }
 
 .quote .credit {
-    font-size: 24px;
+    font-size: 16px;
+    text-align: end;
+    font-weight: 900;
+    margin: 16px 0;
 
 }
 
