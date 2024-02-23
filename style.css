@@ -3,6 +3,11 @@ body {
     overflow: hidden;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
     margin: 0;
+    overflow: auto;
+}
+
+img {
+    border-radius: 12px;
 }
 
 a, a:link {
@@ -23,6 +28,10 @@ button {
     border: #f9faf8 solid 3px;
 }
 
+.no-border {
+    margin: 24px 0;
+}
+
 .header, .info, .quote, .callaction, .footer {
     padding: 0 48px;
 }
@@ -37,6 +46,7 @@ button {
 .header .line {
     display: flex;
     justify-content: space-between;  
+    margin: 24px 0;
 }
 
 .header .logo {
@@ -55,6 +65,8 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin: 48px 0;
+    gap: 24px;
 }
 
 .hero .main {
@@ -71,6 +83,7 @@ button {
 .info {
     background-color: white;
     color: black;
+    margin: 24px 0;
 }
 
 .info .title {
@@ -142,10 +155,14 @@ button {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    margin: 48px;
+    padding: 36px;
+    border-radius: 12px;
 }
 
 .footer {
     background-color: #1F2937;
     color: #f9faf8;
     text-align: center;
+    padding: 16px 0;
 }
